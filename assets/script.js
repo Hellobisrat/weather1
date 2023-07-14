@@ -17,9 +17,10 @@ function checkWeather(city){
   .then(function(data){
     console.log(data)
   
-   console.log(data.name)
+   console.log(data.main.name)
+   
    // city1.innerHTML= data.name
-  
+   
    temp.innerHTML='temp: '+data.main.temp
    wind.innerHTML='speed:'+data.wind.speed
    Hum.innerHTML='humidity:'+data.main.humidity
