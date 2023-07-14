@@ -7,6 +7,7 @@ const Hum =document.querySelector('#Hum');
 const Name =document.querySelector('#city1')
 const input = document.querySelector('#input');
 const button =document.querySelector('#button');
+const display = document.querySelector('.display')
 function checkWeather(city){
 
   fetch(apiUrl+city+`&appid=${apiKey}`)
@@ -65,8 +66,8 @@ button.addEventListener('click',function(){
   localStorage.setItem('list'+Math.floor(Math.random() * 10), input.value);
   var newbutton =document.createElement('button')
   newbutton.innerHTML=localStorage.getItem('list'+Math.floor(Math.random() * 10))
-  button.appendChild(newbutton)
-  
+  display.appendChild(newbutton)
+ 
  })
 
 
