@@ -1,0 +1,51 @@
+.navbar{
+  margin-bottom: 75px;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  background-color: black;
+  height: 100px;
+}
+.display{
+  margin-top: 100px;
+}
+form{
+  overflow: hidden;
+}
+.container{
+  
+  border: black solid 2px;
+  
+}
+li{
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: right;
+  margin-left: 0;
+  list-style: none;
+}
+
+.card{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  
+
+}
+
+#list{
+  margin-top: 10px;
+  height: 100%;
+}
+
+.card-body{
+  
+
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 225px;
+  width: 100%;
+}
